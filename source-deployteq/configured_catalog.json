@@ -1,0 +1,339 @@
+{
+    "streams": [
+      {
+        "stream": {
+          "name": "click_events",
+          "json_schema": {
+            "$schema": "http://json-schema.org/draft-04/schema#",
+            "type": "object",
+            "properties": {
+                    "bounce_category": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "bounce_code": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "bounce_type": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "brand_id": {
+                      "type": [
+                        "null",
+                        "integer"
+                      ]
+                    },
+                    "brand_name": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "broadcast_event_sub_type": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "broadcast_event_type": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "broadcast_id": {
+                      "type": [
+                        "null",
+                        "integer"
+                      ]
+                    },
+                    "broadcast_manual_options": {
+                      "type": [
+                        "null",
+                        "object"
+                      ]
+                    },
+                    "broadcast_metadata": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "broadcast_timestamp": {
+                      "type": [
+                        "null",
+                        "string"
+                      ],
+                      "format": "date-time"
+                    },
+                    "broadcast_type": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "campaign_id": {
+                      "type": [
+                        "null",
+                        "integer"
+                      ]
+                    },
+                    "campaign_name": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "campaign_object_id": {
+                      "type": [
+                        "null",
+                        "integer"
+                      ]
+                    },
+                    "content_id": {
+                      "type": [
+                        "null",
+                        "integer"
+                      ]
+                    },
+                    "content_name": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "customer_email_address": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "customer_id": {
+                      "type": [
+                        "null",
+                        "integer"
+                      ]
+                    },
+                    "email_address": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "email_address_override": {
+                      "type": [
+                        "null",
+                        "integer"
+                      ]
+                    },
+                    "email_domain": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "external_id": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "ip_address": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "link_description": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "link_id": {
+                      "type": [
+                        "null",
+                        "integer"
+                      ]
+                    },
+                    "machine_generated": {
+                      "type": [
+                        "null",
+                        "boolean"
+                      ]
+                    },
+                    "mailing_type": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "metric": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "metric_id": {
+                      "type": [
+                        "null",
+                        "integer"
+                      ]
+                    },
+                    "metric_timestamp": {
+                      "type": [
+                        "null",
+                        "string"
+                      ],
+                      "format": "date-time"
+                    },
+                    "original_content_id": {
+                      "type": [
+                        "null",
+                        "integer"
+                      ]
+                    },
+                    "original_new_content_id": {
+                      "type": [
+                        "null",
+                        "integer"
+                      ]
+                    },
+                    "portal_id": {
+                      "type": [
+                        "null",
+                        "integer"
+                      ]
+                    },
+                    "portal_name": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "subject": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "test_mailing": {
+                      "type": [
+                        "null",
+                        "integer"
+                      ]
+                    },
+                    "ua_brand": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "ua_clientinfo_engine": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "ua_clientinfo_engine_version": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "ua_clientinfo_name": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "ua_clientinfo_short_name": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "ua_clientinfo_type": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "ua_clientinfo_version": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "ua_device": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "ua_model": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "ua_osinfo_name": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "ua_osinfo_platform": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "ua_osinfo_short_name": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "ua_osinfo_version": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "url": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "url_unrendered": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "uuid": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                }
+          },
+          "supported_sync_modes": ["full_refresh",
+        "incremental"]
+        },
+        "sync_mode": "incremental",
+        "destination_sync_mode": "overwrite"
+      }
+    ]
+  }
